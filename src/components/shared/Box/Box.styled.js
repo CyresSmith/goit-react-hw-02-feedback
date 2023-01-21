@@ -35,14 +35,8 @@ const Box = styled('div')(
       },
 
       section: {
-        pt: [6],
-        pb: [6],
-        display: 'flex',
-      },
-
-      widget: {
-        p: [5],
-        borderRadius: [16],
+        pt: [5],
+        pb: [5],
       },
     },
   })

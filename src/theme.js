@@ -1,6 +1,6 @@
-const shadowColor = '210deg 24% 41%';
+const shadowColor = '235deg 32% 13%';
 
-export const theme = {
+const theme = {
   colors: {
     white: '#fff',
     text: '#000',
@@ -47,6 +47,7 @@ export const theme = {
   radii: {
     none: '0',
     normal: '8px',
+    high: '16px',
     round: '50%',
   },
 
@@ -75,3 +76,5 @@ export const theme = {
     15.8px 68.4px 62.7px -4.1px hsl(${shadowColor} / 0.15);`,
   },
 };
+
+export default theme;
